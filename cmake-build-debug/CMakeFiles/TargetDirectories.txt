@@ -1,0 +1,3 @@
+C:/Users/mateu/sgb/cmake-build-debug/CMakeFiles/sgb.dir
+C:/Users/mateu/sgb/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mateu/sgb/cmake-build-debug/CMakeFiles/rebuild_cache.dir
