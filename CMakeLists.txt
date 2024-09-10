@@ -11,4 +11,6 @@ add_executable(sgb
         Busca_livro.c
         Estrutura_Livro.c
         Cadastro_Livros.c
-        exemplo.c)
+        exemplo.c
+        ex.c
+        ex.c)
