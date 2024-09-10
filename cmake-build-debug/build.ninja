@@ -85,6 +85,12 @@ build CMakeFiles/sgb.dir/exemplo.c.obj: C_COMPILER__sgb_unscanned_Debug C$:/User
   OBJECT_DIR = CMakeFiles\sgb.dir
   OBJECT_FILE_DIR = CMakeFiles\sgb.dir
 
+build CMakeFiles/sgb.dir/ccv.cpp.obj: CXX_COMPILER__sgb_unscanned_Debug C$:/Users/mateu/sgb/ccv.cpp || cmake_object_order_depends_target_sgb
+  DEP_FILE = CMakeFiles\sgb.dir\ccv.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\sgb.dir
+  OBJECT_FILE_DIR = CMakeFiles\sgb.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sgb
@@ -93,7 +99,7 @@ build CMakeFiles/sgb.dir/exemplo.c.obj: C_COMPILER__sgb_unscanned_Debug C$:/User
 #############################################
 # Link the executable sgb.exe
 
-build sgb.exe: C_EXECUTABLE_LINKER__sgb_Debug CMakeFiles/sgb.dir/main.c.obj CMakeFiles/sgb.dir/Listagem_Livros.c.obj CMakeFiles/sgb.dir/Busca_livro.c.obj CMakeFiles/sgb.dir/Estrutura_Livro.c.obj CMakeFiles/sgb.dir/Cadastro_Livros.c.obj CMakeFiles/sgb.dir/exemplo.c.obj
+build sgb.exe: CXX_EXECUTABLE_LINKER__sgb_Debug CMakeFiles/sgb.dir/main.c.obj CMakeFiles/sgb.dir/Listagem_Livros.c.obj CMakeFiles/sgb.dir/Busca_livro.c.obj CMakeFiles/sgb.dir/Estrutura_Livro.c.obj CMakeFiles/sgb.dir/Cadastro_Livros.c.obj CMakeFiles/sgb.dir/exemplo.c.obj CMakeFiles/sgb.dir/ccv.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\sgb.dir

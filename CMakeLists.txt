@@ -12,5 +12,4 @@ add_executable(sgb
         Estrutura_Livro.c
         Cadastro_Livros.c
         exemplo.c
-        ex.c
-        ex.c)
+        ccv.cpp)
