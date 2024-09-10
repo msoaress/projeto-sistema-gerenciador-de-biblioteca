@@ -22,21 +22,11 @@ rule C_COMPILER__sgb_unscanned_Debug
 
 
 #############################################
-# Rule for compiling CXX files.
+# Rule for linking C executable.
 
-rule CXX_COMPILER__sgb_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}"C:\PROGRA~1\JetBrains\CLion 2024.2.0.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__sgb_Debug
-  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && "C:\PROGRA~1\JetBrains\CLion 2024.2.0.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
-  description = Linking CXX executable $TARGET_FILE
+rule C_EXECUTABLE_LINKER__sgb_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && "C:\PROGRA~1\JetBrains\CLion 2024.2.0.1\bin\mingw\bin\gcc.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
 

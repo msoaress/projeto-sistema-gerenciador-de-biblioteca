@@ -1,3 +1,4 @@
-//
-// Created by mateu on 07/09/2024.
-//
+#include <stdio.h>
+int static cadastro() {
+    //,,,,
+}
