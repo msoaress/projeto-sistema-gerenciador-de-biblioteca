@@ -1,7 +1,4 @@
 # ninja log v6
-6	335	7474535291489528	CMakeFiles/sgb.dir/main.c.obj	c99d46b5ab3087e8
-146	439	7474535292883438	CMakeFiles/sgb.dir/Cadastro_Livros.c.obj	208b2828022e53fb
-39	340	7474535291811116	CMakeFiles/sgb.dir/Listagem_Livros.c.obj	7cedcb8021796387
-70	357	7474535292130731	CMakeFiles/sgb.dir/Busca_livro.c.obj	dc7fb0df57c9d21f
-108	392	7474535292500854	CMakeFiles/sgb.dir/Estrutura_Livro.c.obj	1ebcefe04e49ca2e
-439	665	7474535295817835	sgb.exe	367df80f096212ef
+10	263	7479710446336142	CMakeFiles/sgb.dir/main.c.obj	c99d46b5ab3087e8
+26	600	7479718625904414	build.ninja	9b6853f6c4d9ecd4
+264	506	7479710448875730	sgb.exe	4a4a860ec377c57e
