@@ -8,7 +8,7 @@
 //variaveis globais
 
 
-#define quant 2
+#define quant 100
 int reiniciar;
 
 int main() {
