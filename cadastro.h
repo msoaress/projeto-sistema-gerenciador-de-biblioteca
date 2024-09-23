@@ -4,5 +4,6 @@
 
 #ifndef CADASTRO_H
 #define CADASTRO_H
+int cadastro();
 
 #endif //CADASTRO_H

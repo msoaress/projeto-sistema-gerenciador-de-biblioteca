@@ -3,8 +3,15 @@
 //
 
 #ifndef STRUCTS_H
+typedef struct {
+    char titulo[100];
+    char autor[100];
+    int ano;
+    char isbn[20];
+}livro;
+
 #define STRUCTS_H
 
-// paulo crie a struct entre esses comandos.
+
 
 #endif //STRUCTS_H

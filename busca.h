@@ -4,5 +4,5 @@
 
 #ifndef BUSCA_H
 #define BUSCA_H
-
+int busca();
 #endif //BUSCA_H
